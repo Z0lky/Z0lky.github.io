@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .navbar {
+            background-color: black;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .navbar li {
+            float: left;
+            width: 33.33%;
+            text-align: center;
+        }
+        
+        .navbar li a {
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar li a:hover {
+            background-color: red;
+        }
+  body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 97.9%;
+}
+    </style>
+    <title>Pagina trabajos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <body>
+        <ul class="navbar">
+            <li><a href="main.html">Trabajos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <h1 style="text-align: center">Formulario de Contacto (en mantenimiento)</h1>
+        <form style="text-align: center">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" required><br><br>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+          </form>
+        <div class="footer">
+            <p>Trabajo realizado por Benicio Figueiras</p>
+        </div>
+    </body>
+</head>
+</html>

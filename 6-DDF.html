@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            function primero() {
+                n1=parseInt(document.getElementById("txt1").value)
+                n2=parseInt(document.getElementById("txt2").value)
+                document.s1.resultado.value=suma
+            }
+        </script>
+        <body>
+            <h1 style="text-align: center; font-size: 50px;">Calculadora de números mayores</h1>
+        <h2 style="text-align: center; font-size: 25px;">Ingrese números para sumar solo los dos mayores<h2>
+            <form name="s1" style="text-align: center">
+                <input type="number" id="txt1" style="text-align: center"> +
+                <input type="number" id="txt2" style="text-align: center"> +
+                <input type="number" id="txt2" style="text-align: center"> =
+                <input type="text" id="resultado" disabled style="text-align: center"><br><br>
+                <input type="button" value="enviar" onclick="primero()">
+            </form>
+        </body>
+    </head>
+</html>

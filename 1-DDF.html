@@ -1,0 +1,28 @@
+<head>
+    <script>
+        function primero() {
+            n1=parseInt(document.getElementById("txt1").value)
+            n2=parseInt(document.getElementById("txt2").value)
+            n3=parseInt(document.getElementById("txt3").value)
+            n4=parseInt(document.getElementById("txt4").value)
+            suma=Math.ceil((n1*0.1)+(n2*0.25)+(n3*0.25)+(n4*0.4))
+            document.s1.resultado.value=suma
+            
+        }
+    </script>
+    <body>
+        <h1 style="text-align: center; font-size: 50px;">Calculadora de notas para los alumnos</h1>
+        <h2 style="text-align: center; font-size: 25px;">Ingrese la participación, primer examen parcial, segundo examen parcial y examen final</h2>
+        <form name="s1" style="text-align: center">
+            <input type="number" id="txt1" style="text-align: center"> +
+            <input type="number" id="txt2" style="text-align: center"> +
+            <input type="number" id="txt3" style="text-align: center"> +
+            <input type="number" id="txt4" style="text-align: center"> =
+            <input type="text" id="resultado" disabled style="text-align: center"><br><br>
+            <input type="button" value="enviar" onclick="primero()"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </form>
+        <h3><a href="main.html">Volver a la pagina central</a></h3>
+    </body>
+</head>
+
+</html>
